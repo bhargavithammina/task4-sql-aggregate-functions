@@ -60,7 +60,7 @@ GROUP BY CustomerName
 
 HAVING total_sales > 50000;
 
-Sample Output:
+##  Sample Output:
 
 | Query                        | Output                                      |
 | ---------------------------- | ------------------------------------------- |
@@ -76,5 +76,6 @@ Author
 **LinkedIn:** [linkedin.com/in/bhargavi-thammina-846053263](https://linkedin.com/in/bhargavi-thammina-846053263)  
 **GitHub:** [github.com/Bhargavi-Thammina](https://github.com/Bhargavi-Thammina)
 ---
+
 
 
