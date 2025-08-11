@@ -28,13 +28,13 @@ Use aggregate functions and grouping to summarize and analyze tabular data in SQ
 
 ---
 
-## SQL Queries and Explanations
+##  SQL Queries and Explanations
 
-### 1. Count total orders
+##  Count total orders
 
 SELECT COUNT(*) AS total_orders FROM Orders;
 
-##Calculate total revenue
+##  Calculate total revenue
 
 SELECT SUM(Quantity * Price) AS total_revenue FROM Orders;
 
@@ -42,7 +42,7 @@ SELECT SUM(Quantity * Price) AS total_revenue FROM Orders;
 
 SELECT AVG(Price) AS avg_price FROM Orders;
 
-##Group total sales by customer
+##  Group total sales by customer
 
 SELECT CustomerName, SUM(Quantity * Price) AS total_sales
 
@@ -50,7 +50,7 @@ FROM Orders
 
 GROUP BY CustomerName;
 
-##Filter customers with sales above ₹50,000
+##  Filter customers with sales above ₹50,000
 
 SELECT CustomerName, SUM(Quantity * Price) AS total_sales
 
@@ -76,4 +76,5 @@ Author
 **LinkedIn:** [linkedin.com/in/bhargavi-thammina-846053263](https://linkedin.com/in/bhargavi-thammina-846053263)  
 **GitHub:** [github.com/Bhargavi-Thammina](https://github.com/Bhargavi-Thammina)
 ---
+
 
