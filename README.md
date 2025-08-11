@@ -45,14 +45,19 @@ SELECT AVG(Price) AS avg_price FROM Orders;
 ##Group total sales by customer
 
 SELECT CustomerName, SUM(Quantity * Price) AS total_sales
+
 FROM Orders
+
 GROUP BY CustomerName;
 
 ##Filter customers with sales above ₹50,000
 
 SELECT CustomerName, SUM(Quantity * Price) AS total_sales
+
 FROM Orders
+
 GROUP BY CustomerName
+
 HAVING total_sales > 50000;
 
 Sample Output:
@@ -71,3 +76,4 @@ Author
 **LinkedIn:** [linkedin.com/in/bhargavi-thammina-846053263](https://linkedin.com/in/bhargavi-thammina-846053263)  
 **GitHub:** [github.com/Bhargavi-Thammina](https://github.com/Bhargavi-Thammina)
 ---
+
